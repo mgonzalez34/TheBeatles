@@ -1,0 +1,124 @@
+#wrap {
+	background-color	:gray;
+	width		:1085px;
+	height		:650px;
+	margin		:0 auto;
+}
+#formwrap {
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:		#F8F8F8;
+	padding:			50px;
+}
+#songswrap h1, h2 {
+	
+	color: 			black;
+	background-color:		gray;
+}
+#songswrap p {
+	font-size: 			20px;
+	color: 			black;
+	background-color:		gray;
+}
+#homewrap {
+	float:			right;
+	margin-right:		6px;
+	margin-bottom:		6px;
+	padding:			10px;
+}
+#footer {
+	background-color	:gray;	
+	clear		:both;
+	text-align		:center;
+	color		:#707070:
+}
+#header {
+	float			:left;
+	width			:100%;
+	background		:url("../img/TheBeatlesLogo.gif") no-repeat center top;
+	font-size		:93%;
+	line-height		:96px;
+ }
+ #header a,#header strong,#header span {
+	display			:block;
+	padding			:0px 0px 0px 0px;
+	text-decoration		:none;
+	color			:#707070;
+ }
+ #header ul{
+   	list-style		:none;
+	padding			:0px 0px 0px 400px;
+	margin			:0;
+ }
+ #header li {
+	float			:left;
+	padding			:0px 50px 0px 0px;
+	margin			:0;
+        font-size			:13pt;
+ }
+ #header #current {
+	
+ }
+ #header #current a {
+ 	background-image	:url("../img/bg49.png");
+	padding-bottom		:0px;
+	color			:#707070;
+ }
+p {
+	text-indent: 50px;
+ 	 text-align: justify;
+ 	 letter-spacing: 1px;
+	font-size: 			20px;
+	color: 			#707070;
+	background-color:		#F8F8F8;
+}
+h1 {
+	color: 			#707070;
+	background-color:		#F8F8F8;
+}
+#picture {
+	float:			left;
+	margin-right:		6px;
+	margin-bottom:		6px;
+	padding:			10px;
+	border-radius:		5px;
+}
+table {
+	table-layout: fixed;
+	width:100%;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 20px;
+	text-align:center;
+}
+thead {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+	background-color: #F8F8F8;
+}
+tbody tr:nth-child(even) {
+	background-image	:url("../img/bg49.png");
+}
+tfoot {
+	background-color: black;
+	color: white;
+	 text-align: center;
+	font-size: 9px;
+}
+ .photos {
+    list-style: none;
+    margin-left: 25;
+    padding: 25px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50px;
+    max-width: 150px;
+  }
+	
